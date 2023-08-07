@@ -10,6 +10,7 @@
 		77980FB92A80E28B00F16ECC /* ConcurrencyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77980FB02A80E28B00F16ECC /* ConcurrencyTests.framework */; };
 		77980FBE2A80E28B00F16ECC /* ConcurrencyTestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77980FBD2A80E28B00F16ECC /* ConcurrencyTestsTests.swift */; };
 		77980FBF2A80E28B00F16ECC /* ConcurrencyTests.h in Headers */ = {isa = PBXBuildFile; fileRef = 77980FB32A80E28B00F16ECC /* ConcurrencyTests.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77980FC92A80E2E600F16ECC /* ConcurrencyExtras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77980FC82A80E2E600F16ECC /* ConcurrencyExtras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +28,7 @@
 		77980FB32A80E28B00F16ECC /* ConcurrencyTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConcurrencyTests.h; sourceTree = "<group>"; };
 		77980FB82A80E28B00F16ECC /* ConcurrencyTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcurrencyTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77980FBD2A80E28B00F16ECC /* ConcurrencyTestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencyTestsTests.swift; sourceTree = "<group>"; };
+		77980FC82A80E2E600F16ECC /* ConcurrencyExtras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrencyExtras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		77980FBC2A80E28B00F16ECC /* ConcurrencyTestsTests */ = {
 			isa = PBXGroup;
 			children = (
+				77980FC82A80E2E600F16ECC /* ConcurrencyExtras.swift */,
 				77980FBD2A80E28B00F16ECC /* ConcurrencyTestsTests.swift */,
 			);
 			path = ConcurrencyTestsTests;
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77980FC92A80E2E600F16ECC /* ConcurrencyExtras.swift in Sources */,
 				77980FBE2A80E28B00F16ECC /* ConcurrencyTestsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
